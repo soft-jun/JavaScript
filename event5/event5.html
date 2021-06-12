@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://www.naver.com" id="link">네이버</a>
+    <script>
+        document.querySelector("#link").addEventListener("click", e => {
+            e.preventDefault();
+            console.log("기본 동작을 방지하고 이 동작이 실행됩니다.");
+        });
+    </script>
+</body>
+</html>
